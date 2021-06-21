@@ -1,0 +1,154 @@
+/*
+Theme Name: BlogIts
+Author: Borhan Uddin
+Text Domain: bts_blogits
+*/
+
+/*Comments*/
+
+ol.children {
+  border: 1px solid rgb(238, 150, 8);
+}
+.post-image {
+  width: 100%;
+  height: 100%;
+}
+.post-image img {
+  width: 100% !important;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.slider-container {
+  height: auto !important;
+}
+.attachment-new_thumb {
+  width: 70%;
+  max-height: 300px;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+  cursor: pointer;
+}
+.swiper-slide {
+  cursor: pointer;
+}
+.image {
+  width: 50%;
+  align-items: center;
+}
+.cont {
+  width: 50%;
+}
+.swiper-pagination-bullet {
+  background: #ccc !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+.featured_post {
+  border: 1px solid #000;
+  padding: 20px;
+  height: 472px;
+}
+.recent_post {
+  margin-top: 30px;
+}
+.featured-post-image {
+  width: 100%;
+}
+.featured-post-image img {
+  width: 100% !important;
+  height: 200px;
+  object-fit: cover;
+}
+.page-numbers {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  margin: 0px !important;
+}
+.blog_post_container {
+  background: #f0f8fb;
+}
+.sidebar {
+  background: #fff;
+  padding: 20px;
+}
+.post {
+  background: #fff;
+  padding: 10px;
+}
+.feature_post_container {
+  padding: 50px 0;
+}
+
+.top-menu ul li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: baseline;
+  z-index: 1111111;
+}
+#search {
+  margin-top: 50px;
+}
+.logo {
+  padding: 0 !important;
+  height: auto !important;
+  width: auto !important;
+}
+input[type="submit"] {
+  background: #0088cc;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+}
+.attachment-img-responsive {
+  max-width: 250px !important;
+  max-height: 200px !important;
+}
+@media (max-width: 768px) {
+  .slider-container {
+    height: auto !important;
+  }
+  #header_top {
+    margin-top: 20px;
+  }
+  .thumbnail-link img {
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .attachment-img-responsive {
+    max-width: 100% !important;
+    max-height: 300px !important;
+  }
+}
+a:hover {
+  text-decoration: none !important;
+}
+.um.um-register.um-287.uimob500 label {
+  color: #fff !important;
+}
+.um.um-register.um-287.uimob500 input {
+  background: transparent !important;
+}
+.um-left input#um-submit-btn {
+  background: #0088cc !important;
+}
+.um.um-login.um-288.uimob500 label {
+  color: #ffff;
+}
+
+.um.um-login.um-288.uimob500 input {
+  background: transparent;
+}
